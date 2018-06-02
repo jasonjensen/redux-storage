@@ -1,8 +1,7 @@
-import isFunction from 'lodash.isfunction';
-import isObject from 'lodash.isobject';
-
+import { isFunction, isObject } from 'lodash-es';
 import { save as actionSave } from './actions';
 import { LOAD, SAVE } from './constants';
+
 
 function swallow() {
 }
